@@ -1,0 +1,33 @@
+version: 0.0.1.{build}
+image: Visual Studio 2015 
+configuration: Release
+    
+branches:
+  only:
+    - master
+    - dev
+    - /^(.*\/)?ci-.*$/
+       
+deploy:
+
+  - provider: NuGet
+    name: Nuget_Release
+    api_key:
+      secure: 7oL6tDCXdSrN6tCZjHmcyjbk7WwcMf8BgfUGZoWsQB0ZD4AZvJ0v9ensmrBujoex
+    skip_symbols: false
+    on:
+      appveyor_repo_tag: true
+      
+  - provider: NuGet
+    name: Nuget_Prerelease
+    server: https://ci.appveyor.com/nuget/josemiguelrodriguezg-eho7mf708t5v/api/v2/package
+    api_key:
+      secure: Hy5t86+y81dw7mFq3nXivEFNWmhBvE1kKVqMrn2D5FY=
+    skip_symbols: false
+    on:
+      branch: dev                   
+      
+cache:
+  - packages -> **\packages.config
+  - '%LocalAppData%\NuGet\Cache'
+

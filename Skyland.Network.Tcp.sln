@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5441B17-047A-4FB8-BEDF-8651C23DB28E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C5BACD04-2076-4AA2-9FFE-EBC1B46D9BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyland.Network.Core", "src\Skyland.Network.Core\Skyland.Network.Core.csproj", "{842B4BB4-CE78-402D-8631-A653BBA9F8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyland.Network.Tcp.Server", "src\Skyland.Network.Tcp.Server\Skyland.Network.Tcp.Server.csproj", "{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyland.Network.Tcp.Client", "src\Skyland.Network.Tcp.Client\Skyland.Network.Tcp.Client.csproj", "{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyland.Network.Tcp.Client.UnitTesting", "test\Skyland.Network.Tcp.Client.UnitTesting\Skyland.Network.Tcp.Client.UnitTesting.csproj", "{AF2205F7-E1E6-47F8-8A4D-36A648151F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyland.Network.Tcp.Server.UnitTesting", "test\Skyland.Network.Tcp.Server.UnitTesting\Skyland.Network.Tcp.Server.UnitTesting.csproj", "{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842B4BB4-CE78-402D-8631-A653BBA9F8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842B4BB4-CE78-402D-8631-A653BBA9F8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842B4BB4-CE78-402D-8631-A653BBA9F8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842B4BB4-CE78-402D-8631-A653BBA9F8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2205F7-E1E6-47F8-8A4D-36A648151F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2205F7-E1E6-47F8-8A4D-36A648151F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2205F7-E1E6-47F8-8A4D-36A648151F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2205F7-E1E6-47F8-8A4D-36A648151F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{842B4BB4-CE78-402D-8631-A653BBA9F8CC} = {F5441B17-047A-4FB8-BEDF-8651C23DB28E}
+		{CFEF48BB-38F4-4D0D-B015-7DBAF55420E3} = {F5441B17-047A-4FB8-BEDF-8651C23DB28E}
+		{EB0601E0-4AF0-42C7-8D90-36C1B29B9A52} = {F5441B17-047A-4FB8-BEDF-8651C23DB28E}
+		{AF2205F7-E1E6-47F8-8A4D-36A648151F65} = {C5BACD04-2076-4AA2-9FFE-EBC1B46D9BFD}
+		{CC4B6785-F79F-4BFF-8FD4-6D7243CD5982} = {C5BACD04-2076-4AA2-9FFE-EBC1B46D9BFD}
+	EndGlobalSection
+EndGlobal
