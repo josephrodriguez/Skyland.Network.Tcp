@@ -1,20 +1,11 @@
 ﻿#region using
 
-using System;
-using System.Diagnostics;
 using System.IO;
-using System.Net;
-using System.Net.Security;
-using System.Security.Authentication;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Skyland.Network.Tcp.Server;
 
 #endregion
 
-namespace RoyalSoft.Network.Tcp.Server.UnitTesting
+namespace Skyland.Network.Tcp.Server.UnitTesting
 {
     [TestClass]
     public class UnitTest1
